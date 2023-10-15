@@ -1,8 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from 'react'
 import {useIntl} from 'react-intl'
-import {KTSVG} from '../../../../helpers'
-import {SidebarMenuItemWithSub} from './SidebarMenuItemWithSub'
 import {SidebarMenuItem} from './SidebarMenuItem'
 
 const SidebarMenuMain = () => {
@@ -20,6 +17,12 @@ const SidebarMenuMain = () => {
         to='/builder'
         icon='/media/icons/duotune/general/gen019.svg'
         title='Layout Builder'
+        fontIcon='bi-layers'
+      />
+      <SidebarMenuItem
+        to='/rol'
+        icon='/media/icons/duotune/general/gen024.svg'
+        title='Rol'
         fontIcon='bi-layers'
       />
     </>
